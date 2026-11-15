@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0a1721" />
+  <title>English Learning Hub | Your Personal Learning Roadmap</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><span class="brand-mark">E<span>✦</span></span><div><strong>English Hub</strong><small>Learn with clarity</small></div></div>
+      <div class="nav-label">WORKSPACE</div>
+      <button class="nav-link active" data-view="dashboard"><span>◫</span> Overview</button>
+      <button class="nav-link" data-view="roadmap"><span>▤</span> Learning roadmap</button>
+      <button class="nav-link" data-view="lessons"><span>▣</span> My lessons</button>
+      <button class="nav-link" data-view="notes"><span>✎</span> My questions</button>
+      <div class="sidebar-bottom"><div class="profile-circle">EL</div><div><b>Your learning space</b><small>15 minutes a day</small></div></div>
+    </aside>
+    <div class="main-wrap">
+      <header class="topbar"><button id="menuToggle" class="icon-btn mobile-only" aria-label="Toggle menu">☰</button><div class="breadcrumb">My workspace <span>/</span> <strong id="pageName">Overview</strong></div><span class="top-chip">✦ English · മലയാളം · हिन्दी</span></header>
+      <main id="content" tabindex="-1"></main>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
