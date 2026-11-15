@@ -4,7 +4,7 @@ A lightweight, responsive English-learning website with Malayalam and Hindi supp
 
 ## Features
 - 12-week English learning roadmap
-- Four ready-to-read foundation lessons
+- Seven complete Week 1 lessons (four core topics, extended sentence building, common mistakes, and a review)
 - Browser-based progress checklist (localStorage)
 - Personal grammar questions notebook (localStorage)
 - Responsive layout for desktop and mobile
@@ -28,4 +28,4 @@ Then open `http://localhost:8000/`.
 ## Important
 Progress and saved questions are stored locally in the current browser, not synced to GitHub or between devices. Clearing browser storage erases them.
 
-Course lessons are informational. Practice quizzes are deliberately omitted until requested.
+Course lessons are informational. Practice quizzes are deliberately omitted until requested. Lesson understanding can be marked separately; the first four lesson checkmarks also update the Week 1 roadmap.
